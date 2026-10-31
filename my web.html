@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#310810">
+  <title>For My Man ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="floating-hearts" id="floatingHearts" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <a class="brand" href="#home">with love, always <span>♥</span></a>
+    <a class="nav-link" href="#letter">yours forever</a>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-glow"></div>
+      <p class="eyebrow">♡ A LITTLE SURPRISE MADE JUST FOR YOU ♡</p>
+      <p class="tiny-date">THE WORLD GOT LUCKIER THE DAY YOU WERE BORN</p>
+
+      <h1>Happy Birthday,<br><span id="heroName">My Man</span></h1>
+
+      <p class="hero-subtitle">
+        To my dhorjevo, my love, my man.<br>
+        Today, this little universe is all yours.
+      </p>
+
+      <div class="heart-seal">♥</div>
+
+      <button class="primary-btn" id="openSurprise">
+        Open your little surprise <span>♡</span>
+      </button>
+      <p class="scroll-note">made with all my heart · scroll slowly ↓</p>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="section countdown-section" id="countdown">
+      <p class="eyebrow">THE COUNTDOWN TO YOUR DAY</p>
+      <h2>A day worth celebrating</h2>
+      <p class="section-intro" id="countdownMessage">
+        Counting down to the day someone very special was born.
+      </p>
+
+      <div class="countdown" aria-label="Birthday countdown">
+        <div class="time-box"><span id="days">00</span><small>days</small></div>
+        <div class="time-box"><span id="hours">00</span><small>hours</small></div>
+        <div class="time-box"><span id="minutes">00</span><small>minutes</small></div>
+        <div class="time-box"><span id="seconds">00</span><small>seconds</small></div>
+      </div>
+      <p class="small-note">Every second is one second closer to celebrating you. ❤️</p>
+    </section>
+
+    <!-- LOVE LETTER -->
+    <section class="section letter-section" id="letter">
+      <p class="eyebrow">SOMETHING FROM MY HEART</p>
+      <h2>A letter for <span class="script">my love</span></h2>
+      <p class="section-intro">Some things are too special to fit into an ordinary message.</p>
+
+      <div class="letter-card">
+        <div class="letter-top">♡ &nbsp; TO MY FAVORITE PERSON &nbsp; ♡</div>
+        <div class="letter-heart">♥</div>
+        <h3 id="letterGreeting">To my man,</h3>
+
+        <div class="letter-copy" id="letterCopy">
+          <p>Happy birthday, my love. ❤️</p>
+          <p>
+              I wish me words ma explain kri saku ke tu mari mate su chhe.
+              tu mara world no ek etlo special part bani gyo che ne yrrr and 
+              i am so grateful for the moments, smiles, conversations, 
+              and little momories we share.
+
+          </p>
+          <p>
+             I hope this new chapter brings you peace jyare life heavy feel krave,
+             courage when things feel difficult and a thousand reasons to smile.
+             i hope you always remember tu ketlo important chhe and how much goodness you deserve.
+          </p>
+          <p>
+            Thank you for being you. I want to keep making memories with you,
+	          laughing over the smallest things, celebrating your
+	          wins, and reminding you on the difficult days that 
+	          you are never short of someone cheering for you my love.
+
+          </p>
+          <p>
+            No website or birthday gift could ever say everything
+            I feel, but I hope this little corner of the internet
+            reminds you that someone made it especially for you,
+            with so much care and love.
+
+          </p>
+          <p>Happy birthday, dhorjevo. You are so, so special to me. ❤️</p>
+        </div>
+
+        <p class="letter-signature">forever sending you love, <span>yours ♡</span></p>
+        <button class="text-btn" id="editLetter">Personalize this letter ✎</button>
+      </div>
+
+      <div class="editor-panel hidden" id="letterEditor">
+        <label for="customLetter">Write your own birthday letter</label>
+        <textarea id="customLetter" rows="9" placeholder="Write everything you want him to know..."></textarea>
+        <div class="editor-actions">
+          <button class="primary-btn" id="saveLetter">Save my letter ♥</button>
+          <button class="secondary-btn" id="cancelEdit">Cancel</button>
+        </div>
+        <p class="small-note">Your custom letter stays in this page while it is open.</p>
+      </div>
+    </section>
+
+    <!-- MEMORIES -->
+    <section class="section memories-section" id="memories">
+      <p class="eyebrow">LITTLE MOMENTS, BIG FEELINGS</p>
+      <h2>Our little <span class="script">universe</span></h2>
+      <p class="section-intro">
+        Add your favorite pictures and let the memories do the talking.
+      </p>
+
+      <div class="photo-grid">
+        <figure class="photo-card photo-tall">
+          <img src="C:\Users\HP\Desktop\1.11\image_2.jpg" alt="A favorite memory together" loading="lazy">
+          <figcaption>my favorite kind of memory ♡</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="C:\Users\HP\Desktop\1.11\image_1.jpg" alt="A special moment together" loading="lazy">
+          <figcaption>you make moments special</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="C:\Users\HP\Desktop\1.11\image_3.jpg" alt="A happy memory together" loading="lazy">
+          <figcaption>one for the memory book ♥</figcaption>
+        </figure>
+     
+      </div>
+    </section>
+
+    <!-- REASONS -->
+    <section class="section reasons-section" id="reasons">
+      <p class="eyebrow">A FEW THINGS I HOPE YOU NEVER FORGET</p>
+      <h2>Reasons you're <span class="script">so special</span></h2>
+      <p class="section-intro">Tap each little heart for a reminder. ❤️</p>
+
+      <div class="reasons-grid">
+        <button class="reason-card" data-message="Your smile can make an ordinary moment feel unforgettable.">
+          <span class="reason-icon">♡</span><span>A little reminder</span><small>tap to open</small>
+        </button>
+        <button class="reason-card" data-message="I admire the person you are and the person you keep becoming.">
+          <span class="reason-icon">♥</span><span>Something I admire</span><small>tap to open</small>
+        </button>
+        <button class="reason-card" data-message="You deserve kindness, happiness, peace, and all the beautiful things life can bring.">
+          <span class="reason-icon">✧</span><span>A wish for you</span><small>tap to open</small>
+        </button>
+        <button class="reason-card" data-message="Out of all the little moments life gives us, I'm grateful for the ones that include you.">
+          <span class="reason-icon">❣</span><span>From my heart</span><small>tap to open</small>
+        </button>
+      </div>
+      <div class="reason-reveal hidden" id="reasonReveal" aria-live="polite"></div>
+    </section>
+
+    <!-- BIRTHDAY SURPRISE -->
+    <section class="section surprise-section" id="surprise">
+      <p class="eyebrow">AND NOW... ONE LAST LITTLE THING</p>
+      <h2>Make a birthday <span class="script">wish</span></h2>
+      <p class="section-intro">
+        Take a little breath, close your eyes for a moment, and make a wish. ✨
+      </p>
+
+      <div class="cake-wrap">
+        <div class="cake-candles"><i></i><i></i><i></i></div>
+        <div class="cake-top"></div>
+        <div class="cake-layer cake-layer-one"></div>
+        <div class="cake-layer cake-layer-two"></div>
+        <div class="cake-plate"></div>
+      </div>
+
+      <button class="primary-btn" id="wishBtn">Make your wish ✨</button>
+      <div class="wish-message hidden" id="wishMessage" aria-live="polite">
+        <div class="wish-sparkle">✧ ♥ ✧</div>
+        <h3>Happy birthday, my man!</h3>
+        <p>
+          May this year be gentle with your heart, generous with your
+          dreams, and full of moments that make you genuinely happy.
+          You deserve so many beautiful things. ❤️
+        </p>
+        <p class="script wish-signoff">I’m always cheering for you. ♡</p>
+      </div>
+    </section>
+
+    <!-- FINAL -->
+    <section class="final-section section">
+      <div class="final-heart">♥</div>
+      <p class="eyebrow">A LITTLE NOTE BEFORE YOU GO</p>
+      <h2>In every version<br>of this little story...</h2>
+      <p class="final-message">
+        I'm glad our paths crossed.<br>
+        I'm glad you exist.<br>
+        And today, especially, I hope you feel celebrated.
+      </p>
+      <p class="script final-signature">Happy birthday, my love. ❤️</p>
+      <a href="#home" class="back-top">back to the beginning ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    made with love, just for you <span>♥</span>
+  </footer>
+
+  <!-- POP-UP SURPRISE -->
+  <div class="modal hidden" id="surpriseModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button class="modal-close" id="closeModal" aria-label="Close">×</button>
+      <div class="modal-heart">♥</div>
+      <p class="eyebrow">A SECRET JUST FOR YOU</p>
+      <h2 id="modalTitle">Hey, my man...</h2>
+      <p>
+        If I could give you one thing today, it would be the chance to see
+        yourself through the eyes of everyone who cares about you.
+        I hope you would see just how wonderful and worthy of happiness you are.
+      </p>
+      <p class="script">You matter more than you know. ♡</p>
+      <button class="primary-btn" id="modalContinue">Explore your surprise ↓</button>
+    </div>
+  </div>
+</body>
+</html>
+
+
+bug find
+where bug is case
+correct it
